@@ -10,10 +10,10 @@ class HomeOne extends StatefulWidget {
 }
 
 class _HomeOneState extends State<HomeOne> {
-  Color oncolor = Colors.black;
-  Color offcolor = Color.fromARGB(255, 75, 73, 73);
-  Color LOGIN = Color.fromARGB(255, 75, 73, 73);
-  Color SIGNUP = Color.fromARGB(255, 75, 73, 73);
+  Color oncolor = Color.fromARGB(255, 15, 79, 219);
+  Color offcolor = Color.fromARGB(255, 158, 155, 155);
+  Color LOGIN = Color.fromARGB(255, 158, 155, 155);
+  Color SIGNUP = Color.fromARGB(255, 158, 155, 155);
 
   void setcolor(int val) {
     if (val == 1) {
@@ -123,26 +123,21 @@ class _HomeOneState extends State<HomeOne> {
                 child: Row(
                   children: [
                     Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.all(Radius.circular(30))),
-                    ),
-                    SizedBox(width: 20),
-                    Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                        color: Colors.amber,
-                        borderRadius: BorderRadius.all(Radius.circular(30)),
-                      ),
-                    ),
-                    SizedBox(width: 20),
-                    Container(
                       width: 80,
                       height: 80,
                       child: Image.asset('images/google_icon.png'),
+                    ),
+                    SizedBox(width: 20),
+                    Container(
+                      width: 95,
+                      height: 95,
+                      child: Image.asset('images/facebook_icon.png'),
+                    ),
+                    SizedBox(width: 20),
+                    Container(
+                      width: 120,
+                      height: 120,
+                      child: Image.asset('images/gmail_icon.jpeg'),
                     ),
                   ],
                 ),
