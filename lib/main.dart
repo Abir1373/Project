@@ -119,23 +119,30 @@ class _HomeOneState extends State<HomeOne> {
               Positioned(
                 top: 650,
                 right: 0,
-                left: 20,
+                left: 30,
                 child: Row(
                   children: [
                     Container(
                       width: 100,
                       height: 100,
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.all(Radius.circular(30))),
                     ),
+                    SizedBox(width: 20),
                     Container(
                       width: 100,
                       height: 100,
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(
+                        color: Colors.amber,
+                        borderRadius: BorderRadius.all(Radius.circular(30)),
+                      ),
                     ),
+                    SizedBox(width: 20),
                     Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(),
+                      width: 80,
+                      height: 80,
+                      child: Image.asset('images/google_icon.png'),
                     ),
                   ],
                 ),
