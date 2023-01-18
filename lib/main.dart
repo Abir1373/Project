@@ -116,6 +116,30 @@ class _HomeOneState extends State<HomeOne> {
                   ),
                 ),
               ),
+              Positioned(
+                top: 650,
+                right: 0,
+                left: 20,
+                child: Row(
+                  children: [
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(),
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(),
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
